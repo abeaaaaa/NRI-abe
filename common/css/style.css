@@ -13,7 +13,7 @@ body{
 
 /*固定ヘッダー*/
 
-#pagehead{
+#pageHead{
     width:100%;
     height:60px;
     background-color:white;
@@ -22,30 +22,30 @@ body{
     left:0px;
     z-index: 10;
 }
-#pagehead .headerWrap .headerLogo{
+#pageHead .headerWrap .headerLogo{
     width:125px;
     height:60px;
     float:left;
 }
 
-#pagehead .headerWrap .headerLogo .logo{
+#pageHead .headerWrap .headerLogo .logo{
     margin-left:45px;
 }
 
-#pagehead .headerWrap .headerIcons{
+#pageHead .headerWrap .headerIcons{
     width:200px;
     height:60px;
     float:right;
     background-color: #005bac;
 }
 
-#pagehead .headerWrap .headerIcons a{
+#pageHead .headerWrap .headerIcons a{
     float:left;
 }
 
 
 
-#pagehead img{
+#pageHead img{
     vertical-align: bottom;
 }
 
@@ -420,14 +420,14 @@ margin-top: 0px;
     margin-top:22px;
 }
 
-#pageSub .heieihousin{
+#pageSub .managementPolicy{
     height:212px;
     border-top:1px#333 dotted;
 }
-#pageSub .heieihousin h4{
+#pageSub .managementPolicy h4{
     margin: 33px 0 10px 0;
 }
-#pageSub .heieihousin .heieihousinContainer {
+#pageSub .managementPolicy .managementPolicyContainer {
     height:126px;
     display:flex;
     flex-wrap:wrap;
@@ -448,29 +448,29 @@ margin-top: 0px;
     align-content: space-around;
 }
 
-#pageSub .annai{
+#pageSub .guide{
     height:172px;
     border-top:1px#333 dotted;
 }
-#pageSub .annai h4{
+#pageSub .guide h4{
     margin: 33px 0 10px 0;
 }
-#pageSub .annai .annaiContainer {
+#pageSub .guide .guideContainer {
     height:85px;
     display:flex;
     flex-wrap:wrap;
     align-content: space-around;
 }
 
-#pageSub .kyoten{
+#pageSub .base{
     height:130px;
     border-top:1px#333 dotted;
     border-bottom:1px#333 dotted;
 }
-#pageSub .kyoten h4{
+#pageSub .base h4{
     margin: 33px 0 10px 0;
 }
-#pageSub .kyoten .kyotenContainer {
+#pageSub .base .kyotenContainer {
     height:50px;
     display:flex;
     flex-wrap:wrap;
@@ -479,10 +479,10 @@ margin-top: 0px;
 
 
 
-#pageSub .heieihousin .heieihousinContainer a,
+#pageSub .managementPolicy .managementPolicyContainer a,
 #pageSub .strongPoint .strongPointContainer a,
-#pageSub .annai .annaiContainer a,
-#pageSub .kyoten .kyotenContainer a{
+#pageSub .guide .guideContainer a,
+#pageSub .base .baseContainer a{
     color:#0c419a;
     font-size:14px;
     line-height:21px;
@@ -510,10 +510,10 @@ margin-top: 0px;
 }
 
 
-#pageSub .heieihousin .heieihousinContainer a:hover,
+#pageSub .managementPolicy .managementPolicyContainer a:hover,
 #pageSub .strongPoint .strongPointContainer a:hover,
-#pageSub .annai .annaiContainer a:hover,
-#pageSub .kyoten .kyotenContainer a:hover,
+#pageSub .guide .guideContainer a:hover,
+#pageSub .base .baseContainer a:hover,
 #pageSub .backPage a:hover{
     text-decoration: underline;
 }
@@ -568,16 +568,16 @@ vertical-align: middle;
     margin-bottom: 72px;
 }
 
-#pageLast .asideContainer  .asaideA{
+#pageLast .asideContainer  .asideA{
     flex-basis: 235px;
     height:325px;
 }
-#pageLast .asideContainer  .asaideB{
+#pageLast .asideContainer  .asideB{
     flex-basis: 235px;
     height:50px;
 }
 
-#pageLast .asideContainer .asaideTitle{
+#pageLast .asideContainer .asideTitle{
     display: block;
     font-size: 16px;
     line-height: 24px;
@@ -609,37 +609,37 @@ vertical-align: middle;
 
 
 /*footer*/
-#pagefoot{
+#pageFoot{
     width:1000px;
     margin:0 auto 120px;
 }
 
-#pagefoot ul {
+#pageFoot ul {
 padding:0;
 margin-bottom: 21px;
 height:15px;
 }
-#pagefoot ul:after {
+#pageFoot ul:after {
     display: block;
     content:"";
     clear:both;
 }
 
-#pagefoot ul li{
+#pageFoot ul li{
     list-style: none;
     float:left;
     border-right:1px solid #CCC;
     padding:0 15px;
     height:15px;
 }
-#pagefoot ul li:first-child{
+#pageFoot ul li:first-child{
     padding:0 15px 0 0;
 }
-#pagefoot ul li:last-child{
+#pageFoot ul li:last-child{
     border-right:none;
     padding:0 0  0 15px ;
 }
-#pagefoot ul li a{
+#pageFoot ul li a{
     color:#999;
     font-size:11px;
     letter-spacing: 0.1px;
@@ -649,11 +649,11 @@ height:15px;
 }
 
 
-#pagefoot ul li a:hover{
+#pageFoot ul li a:hover{
     text-decoration: underline
 }
 
-#pagefoot #copyright{
+#pageFoot #copyright{
     color:#333;
     font-size:10px;
     line-height:19px;
