@@ -309,62 +309,115 @@ margin-top: 0px;
 
 
 /*nriTopics*/
-#pageMain .nriTopics {
-    height: 240px;
-    background-color: #DEECF8;
-    padding: 25px 0 21px 0;
+.nriTopics{
+    height:240px;
+    background-color:#DEECF8;
+}
+
+.nriTopics h2{
+    font-size:16px;
+    line-height:30px;
+    color:#333;
+    font-weight: bold;
+    height:60px;
+    padding: 20px 0 0 20px;
+    margin-bottom:0;
     box-sizing: border-box;
 }
 
-#pageMain .nriTopics .articleListContainer{
-    width:757px;
-    height:192px;
-    margin:0 auto;
-}
-
-#pageMain .nriTopics .articleListContainer h2{
-    font-size: 16px;
-    margin:0 0 17px 0;
-}
-#pageMain .nriTopics .articleListContainer .articleList{
-    display: flex;
+.nriTopics .articleList{
+    display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    width:757px;
-    height:142px;
+    justify-content:space-around;
     text-align: center;
+   
 }
 
-
-#pageMain .nriTopics .articleListContainer .articleList a{
-    text-decoration: none;
-    display: block;
-    color:#0C419A;
-    background-color: #FFF;
-    border:1px solid #CCC;
-}
-
-
-
-#pageMain .nriTopics .articleListContainer .articleList .list_a{
-    width:238px;
+.nriTopics .articleList1,
+.nriTopics .articleList2,
+.nriTopics .articleList3
+{
+    font-size: 16px;
+    line-height: 19px;
+    color: #0c419a;
+    border:solid #ccc 1px;
+    background-color: white;
+    flex-basis:240px;
     height:70px;
-    padding:21px;    
+    margin-bottom:20px;
     box-sizing: border-box;
+    position:relative;
 }
-#pageMain .nriTopics .articleListContainer .articleList .list_b{
-    width:238px;
+.nriTopics .articleList4,
+.nriTopics .articleList5,
+.nriTopics .articleList6
+{
+    font-size: 16px;
+    line-height: 19px;
+    color: #0c419a;
+    border:solid #ccc 1px;
+    background-color: white;
+    flex-basis:240px;
     height:50px;
-    padding:14px;    
+    margin-bottom:40px;
     box-sizing: border-box;
+    position:relative;
+}
+
+.nriTopics .articleList1,
+.nriTopics .articleList2,
+.nriTopics .articleList3,
+.nriTopics .articleList4,
+.nriTopics .articleList5,
+.nriTopics .articleList6{
+    transition: all 0.7s;
+}
+
+.nriTopics .articleList1:hover,
+.nriTopics .articleList2:hover,
+.nriTopics .articleList3:hover,
+.nriTopics .articleList4:hover,
+.nriTopics .articleList5:hover,
+.nriTopics .articleList6:hover{
+    background-color:rgb(230, 227, 227);
 }
 
 
+.articleListLink1{
+    display:block;
+    padding:16px 23px;
+    text-decoration: none;
+    color:#0c419a;
+}
 
+.articleListLink2, .articleListLink3{
+    display:block;
+    padding:22px 22px;
+    text-decoration: none;
+    color:#0c419a;
+}
+.articleListLink4, .articleListLink5,.articleListLink6{
+    display:block;
+    padding:12px 15px;
+    text-decoration: none;
+    color:#0c419a;
+}
 
+.articleListLink1:before,.articleListLink2:before, .articleListLink3:before{
+    content:">";
+    position: absolute;
+    top:25px;
+    left:10px;
+    font-weight: lighter;
+}
 
-
+.articleListLink4:before,.articleListLink5:before, .articleListLink6:before{
+    content:">";
+    position: absolute;
+    top:15px;
+    left:10px;
+    font-weight: lighter;
+}
 
 #pageMain .snsContainer2 {
     height:213px;
