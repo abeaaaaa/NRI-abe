@@ -345,6 +345,12 @@ margin-top: 0px;
     border:1px solid #CCC;
 }
 
+#pageMain .nriTopics .articleListContainer .articleList a:hover{
+    transition: all 0.7s;
+    background-color: rgb(233, 230, 230);
+}
+
+
 
 
 #pageMain .nriTopics .articleListContainer .articleList .list_a{
@@ -353,6 +359,18 @@ margin-top: 0px;
     padding:21px;    
     box-sizing: border-box;
 }
+
+#pageMain .nriTopics .articleListContainer .articleList .list_A{
+    position: relative;
+}
+
+#pageMain .nriTopics .articleListContainer .articleList .list_a::before{
+    content:">";
+    position: absolute; 
+    top:24px;
+    left:10px;
+}
+
 #pageMain .nriTopics .articleListContainer .articleList .list_b{
     width:238px;
     height:50px;
@@ -360,6 +378,16 @@ margin-top: 0px;
     box-sizing: border-box;
 }
 
+#pageMain .nriTopics .articleListContainer .articleList .list_B{
+    position: relative;
+}
+
+#pageMain .nriTopics .articleListContainer .articleList .list_b::before{
+    content:">";
+    position: absolute; 
+    top:15px;
+    left:10px;
+}
 
 
 
